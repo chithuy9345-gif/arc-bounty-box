@@ -9,10 +9,16 @@ USDC bounty board on Arc testnet.
 
 ## Contract
 
-`src/BountyBox.sol` accepts USDC payments and emits payment events for accounting.
+`src/BountyBox.sol` records USDC payments and emits accounting events.
 
-## Test
+## Build
 
 ```bash
-forge test -vv
+forge build
 ```
+
+## Deployment
+
+- Contract: `0x6f45e06aFCb7903022C98Ab36971D7eD069BD874`
+- Tx: `inferred-from-nonce`
+- Explorer: https://testnet.arcscan.app/address/0x6f45e06aFCb7903022C98Ab36971D7eD069BD874
